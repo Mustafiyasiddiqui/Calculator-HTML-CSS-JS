@@ -1,11 +1,68 @@
 .main {
     height: 100vh;
     width: 100%;
-    color: white;
-    background-color: black;
-    display: grid;
+    color: #7F6269;
+    background-color: #0E1627;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.calculator {
+    background-color: #F4E1E0;
+    padding: 7vw 6vw;
+
+}
+
+button {
+    color: #BD8E89;
+    background-color: #E5C5C1;
+    border: none;
+    padding: 1vw;
+    margin: 0.2vw;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15 ease;
+
+}
+
+button:hover {
+    background-color: #0E1627;
+    color: #F4E1E0
+}
+
+button:active {
+    transform: scale(0.95);
+}
 
 
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.row-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.row-5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
